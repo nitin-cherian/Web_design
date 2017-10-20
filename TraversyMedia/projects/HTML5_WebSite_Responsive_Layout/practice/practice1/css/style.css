@@ -131,4 +131,10 @@ ul {
  }
 
  /* Footer */
- 
+ footer {
+   padding: 20px;
+   text-align: center;
+   background: #30db4f;
+   color: white;
+   font-weight: bold;
+ }
