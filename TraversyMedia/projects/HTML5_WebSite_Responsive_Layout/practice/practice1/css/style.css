@@ -56,3 +56,22 @@ ul {
    color: #30db4f;
    font-weight: bold;
  }
+
+ /* Showcase */
+ #showcase {
+   background: url('../img/showcase.jpg') no-repeat 0 -400px;
+   min-height: 400px;
+   text-align: center;
+   color: white;
+ }
+
+ #showcase h1 {
+   font-size: 3rem;
+   margin-top: 100px;
+   margin-bottom: 10px;
+ }
+
+ #showcase p{
+   font-size: 20px;
+   color: #f4f4f4
+ }
