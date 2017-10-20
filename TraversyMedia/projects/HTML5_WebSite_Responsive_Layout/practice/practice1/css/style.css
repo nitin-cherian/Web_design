@@ -16,6 +16,16 @@ ul {
   overflow: hidden;
 }
 
+.button_1 {
+  background: #30db4f;
+  border: none;
+  min-height: 38px;
+  padding: 0 20px 0 20px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+}
+
  /* Header */
  header {
    background: #3f4f43;
@@ -52,6 +62,11 @@ ul {
    font-size: 16px;
  }
 
+ header nav a:hover {
+   color: #7f8780;
+   font-weight: bold;
+ }
+
  header .highlight {
    color: #30db4f;
    font-weight: bold;
@@ -74,4 +89,27 @@ ul {
  #showcase p{
    font-size: 20px;
    color: #f4f4f4
+ }
+
+ /* Newsletter */
+ #newsletter {
+   background: #3f4f43;
+   padding: 20px;
+ }
+
+ #newsletter h3 {
+   float: left;
+   font-size: 20px;
+   color: white;
+ }
+
+ #newsletter form {
+   float: right;
+   margin-top: 20px;
+ }
+
+ #newsletter form input[type="email"] {
+   padding: 5px;
+   min-height: 24px;
+   width: 250px;
  }
